@@ -6,7 +6,7 @@
 - Docker Compose 1.29
 
 ## Application Description
-A simple web application with:
+A simple web application to let a user login and check the current balance and expenses balance:
 - **Frontend (Nginx)**: Static page with user registration form.
 - **Backend (Flask)**: Accepts user email + password and stores them in DB.
 - **Database (Postgres)**: Persistent storage of credentials.
@@ -41,18 +41,4 @@ Run in ubuntu terminal after coping the folder to the VMware.
 ./remove-app.sh
 
 
-## Steps of Workflow
-bash
-./prepare-app.sh
-Preparing app ...
-
-./start-app.sh
-The app is available at: http://localhost:8080
-# Interact via browser
-
-./stop-app.sh
-Stopping app ...
-
-./remove-app.sh
-Removed app.
 
