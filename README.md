@@ -12,21 +12,21 @@ A simple web application with:
 - **Database (Postgres)**: Persistent storage of credentials.
 
 ## Network and Volume Details
-- **Network**: `appnet` – allows inter-container communication.
-- **Volume**: `user_data` – stores PostgreSQL database files persistently.
+- **Network**: appnet – allows inter-container communication.
+- **Volume**: user_data – stores PostgreSQL database files persistently.
 
 ## Container Configuration
-- **Frontend**: Runs Nginx on port `8080`.
-- **Backend**: Runs Flask API on port `5000`.
-- **Database**: Runs PostgreSQL on default port `5432`.
+- **Frontend**: Runs Nginx on port -8080.
+- **Backend**: Runs Flask API on port -5000.
+- **Database**: Runs PostgreSQL on default port -5432.
 
 ## Container List
-- `frontend`: Static web server.
-- `backend`: Python Flask REST API.
-- `db`: PostgreSQL database.
+- frontend: Static web server.
+- backend: Python Flask REST API.
+- db: PostgreSQL database.
 
 ## Instructions
-```bash
+bash
 # Prepare application resources
 ./prepare-app.sh
 
@@ -39,10 +39,10 @@ A simple web application with:
 
 # Remove all resources
 ./remove-app.sh
-```
 
-## Example Workflow
-```bash
+
+## Steps of Workflow
+bash
 ./prepare-app.sh
 Preparing app ...
 ./start-app.sh
@@ -52,4 +52,4 @@ The app is available at: http://localhost:8080
 Stopping app ...
 ./remove-app.sh
 Removed app.
-```
+
