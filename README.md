@@ -2,8 +2,8 @@
 # Docker Web App Assignment
 
 ## Deployment Requirements
-- Docker (>=20.10)
-- Docker Compose (>=1.29)
+- Docker 20.10
+- Docker Compose 1.29
 
 ## Application Description
 A simple web application with:
@@ -26,7 +26,7 @@ A simple web application with:
 - db: PostgreSQL database.
 
 ## Instructions
-bash
+Run in ubuntu terminal after coping the folder to the VMware.
 # Prepare application resources
 ./prepare-app.sh
 
