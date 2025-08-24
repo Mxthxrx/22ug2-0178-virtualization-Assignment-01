@@ -45,11 +45,14 @@ Run in ubuntu terminal after coping the folder to the VMware.
 bash
 ./prepare-app.sh
 Preparing app ...
+
 ./start-app.sh
 The app is available at: http://localhost:8080
 # Interact via browser
+
 ./stop-app.sh
 Stopping app ...
+
 ./remove-app.sh
 Removed app.
 
