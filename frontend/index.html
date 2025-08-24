@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<h1><c><i>Ewallet</i></c></h1>
+<body>
+    <!-- Centered container like the cards -->
+  <div class="container">
+    <div class="card">
+      <h1>Login</h1>
+      <form id="loginForm">
+        <input type="email" id="email" placeholder="Email" required><br>
+        <input type="password" id="password" placeholder="Password" required><br>
+        <button type="submit">Login</button>
+      </form>
+      <p id="response"></p>
+    </div>
+  </div>
+
+  <script>
+    // Dummy login: just redirect to home.html if form is filled
+    document.getElementById("loginForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+
+      if (email && password) {
+        window.location.href = "home.html"; // redirect on success
+      } else {
+        document.getElementById("response").innerText = "Please enter email and password.";
+      }
+    });
+  </script>
+</body>
+</html>
