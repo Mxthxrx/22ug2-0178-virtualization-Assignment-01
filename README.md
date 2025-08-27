@@ -29,16 +29,23 @@ A simple web application to let a user login and check the current balance and e
 Run in ubuntu terminal after coping the folder to the VMware.
 # Prepare application resources
 ./prepare-app.sh
+<img width="742" height="344" alt="image" src="https://github.com/user-attachments/assets/38bf7eb6-e36c-46c4-b7aa-fe4021c35486" />
+
 
 # Start application
 ./start-app.sh
 # Access app at http://localhost:8080
+<img width="727" height="452" alt="image" src="https://github.com/user-attachments/assets/8e6e95df-c7a0-4a8e-91cb-edc97fc6488e" />
+<img width="516" height="202" alt="image" src="https://github.com/user-attachments/assets/62396028-ba2e-4082-8e75-2dca74b62c59" />
+<img width="705" height="331" alt="image" src="https://github.com/user-attachments/assets/6c7a6839-4356-4138-abd6-00960463f45d" />
+
 
 # Stop application (keeps data)
 ./stop-app.sh
 
 # Remove all resources
 ./remove-app.sh
+<img width="664" height="375" alt="image" src="https://github.com/user-attachments/assets/7c2d1e81-8921-41ed-a44e-643e755cdc09" />
 
 
 
